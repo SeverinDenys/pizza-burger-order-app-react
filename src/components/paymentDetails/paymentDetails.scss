@@ -1,0 +1,74 @@
+.payment-form {
+  max-width: 100%;
+
+  padding: 20px;
+
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  text-align: center;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.4);
+
+  h2 {
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 20px;
+  }
+
+  input {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    font-size: 16px;
+    outline: none;
+    box-sizing: border-box;
+
+    &:focus {
+      border-color: #007bff;
+    }
+  }
+
+  .pay-button {
+    width: 100%;
+    padding: 14px;
+    background-color: #28a745;
+    color: white;
+    font-size: 18px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+
+    &:hover {
+      background-color: #218838;
+    }
+  }
+}
+
+.app-container {
+  position: relative;
+}
+
+.inner-form {
+  width: 90%;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f1f0f0;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+.payment-form-submitted {
+  border-radius: 5px;
+
+  padding: 1rem;
+  background-color: #6cd38e;
+  @media (min-width: 768px) {
+    font-size: 2rem;
+  }
+}

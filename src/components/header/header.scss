@@ -1,0 +1,35 @@
+.header {
+  background-image: url("../assets/images/bg-Img.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 17rem;
+  text-align: center;
+
+  & h1 {
+    font-family: "Smythe", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    color: $primary-color;
+    font-size: 4rem;
+    margin-bottom: 2rem;
+    padding-top: 4.5rem;
+
+    @media (min-width: 768px) {
+      font-size: 6rem;
+      padding-top: 2.5rem;
+    }
+  }
+
+  & p {
+    font-family: "Smythe", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    color: $primary-color;
+    font-size: 2rem;
+    @media (min-width: 768px) {
+      font-size: 3rem;
+      padding-bottom: 2rem;
+    }
+  }
+}

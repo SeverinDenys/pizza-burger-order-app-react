@@ -1,0 +1,12 @@
+main {
+  text-align: center;
+  position: relative;
+
+  @media (min-width: 768px) {
+    background-color: rgb(252, 250, 248);
+    max-width: 60rem;
+    margin: 5rem auto 3rem;
+    padding: 2rem 1rem;
+    border-radius: 3rem;
+  }
+}
