@@ -1,4 +1,4 @@
-import OrderItem from "../orderItem/orderItem";
+import OrderItem from "../orderItem/OrderItem";
 import CompleteOrder from "../completeOrder/CompleteOrder";
 import { useState } from "react";
 import PaymentDetails from "../paymentDetails/PaymentDetails";
